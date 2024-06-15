@@ -1,0 +1,45 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  </head>
+  <body>
+
+<div class="container">
+<div class="column">
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        {{ site.title }}
+      </h1>
+      <div class="content">
+        <p>
+          {{ site.description }}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {% for section in site.sections %}
+  <section class="section is-small">
+    <div class="container">
+      <h1 class="title has-text-centered">
+        {{ section.subtitle }}
+      </h1>
+      <div class="content">
+        {{ section.content }}
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+
+</div>
+</div>
+  </body>
+</html>
