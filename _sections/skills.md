@@ -1,9 +1,10 @@
 ---
-subtitle: Skills
-sort: 3
+section_title: Skills
+sort_order: 3
 ---
 
 # Usablity Skills
+
 * One-on-One usablity interviews: remote and in-lab
 * Participant session analysis with highlight reels and report deliverables
 * Focus groups moderating and analysis

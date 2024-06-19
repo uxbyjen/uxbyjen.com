@@ -31,6 +31,8 @@ github_username:  jekyll
 
 collections:
   sections:
+    output: true
+    sort_by: sort_order
 
 # Build settings
 theme: minima
