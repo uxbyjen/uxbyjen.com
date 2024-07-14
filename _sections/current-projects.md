@@ -1,5 +1,6 @@
 ---
 section_title: Current Projects
+slug: projects
 sort_order: 4
 ---
 

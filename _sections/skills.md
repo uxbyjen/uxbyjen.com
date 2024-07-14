@@ -1,5 +1,6 @@
 ---
 section_title: Skills
+slug: skills
 sort_order: 3
 ---
 

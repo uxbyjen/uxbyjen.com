@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
 
@@ -15,33 +16,30 @@
 <div class="column">
   <section class="section">
     <div class="container">
+      <!-- Title -->
       <h1 class="title has-text-centered">
         {{ site.title }}
       </h1>
 
+      <!-- Navigation -->
       <div class="is-size-5 title has-text-centered">
         <span class="icon">
           <i class="fas fa-home"></i>
         </span>
         <p>
-          Nav | 
-          Goes | 
-          Here
+          {% for section in site.sections %}
+            <a href="#{{ section.slug }}" class="my-nav-link">{{ section.section_title }}</a>
+            {% unless forloop.last %}|{% endunless %}
+          {% endfor %}
         </p>
       </div>
-
-      <div class="content">
-        <p>
-          {{ site.description }}
-        </p>
-      </div>
-    </div>
   </section>
 
+  <!-- Sections -->
   {% for section in site.sections %}
   <section class="section is-small">
     <div class="container">
-      <h1 class="title has-text-centered">
+      <h1 id="{{ section.slug }}" class="title has-text-centered">
         {{ section.section_title }}
       </h1>
 

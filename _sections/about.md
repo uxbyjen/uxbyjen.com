@@ -1,5 +1,6 @@
 ---
 section_title: About Me
+slug: about
 sort_order: 1
 ---
 

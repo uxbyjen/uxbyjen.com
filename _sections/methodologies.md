@@ -1,5 +1,6 @@
 ---
 section_title: Methodologies
+slug: methodologies
 sort_order: 2
 ---
 
