@@ -4,7 +4,7 @@ slug: skills
 sort_order: 3
 ---
 
-# Usablity Skills
+## Usablity Skills
 
 * One-on-One usablity interviews: remote and in-lab
 * Participant session analysis with highlight reels and report deliverables
@@ -14,3 +14,4 @@ sort_order: 3
 * Low- and high-fidelity testing
 * Competitive analysis
 * Benchmarking
+{: .two-columns }

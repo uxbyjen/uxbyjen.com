@@ -1,0 +1,4 @@
+{% for section in site.sections %}
+    <a href="#{{ section.slug }}" class="my-nav-link">{{ section.section_title }}</a>
+    {% unless forloop.last %}|{% endunless %}
+{% endfor %}

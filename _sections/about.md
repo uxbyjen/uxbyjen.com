@@ -21,6 +21,7 @@ The clients I have collaborated has included ranging from startups to Fortune 50
 * healthcare providers
 * B2B
 * and more....
+{: .two-columns }
 
 My focus is on qualitative research as I find this methodology to be rich in behavioral data and user stories that provide insights into user motivations, decision-making, emotion, expectations, and mental models. 
 
