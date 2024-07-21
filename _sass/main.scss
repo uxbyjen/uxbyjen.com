@@ -1,3 +1,17 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+body {
+  //font-family: "Sora", sans-serif;
+  //font-optical-sizing: auto;
+}
+
+hr {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
 .current {
   color: green;
 }
@@ -6,7 +20,26 @@
   columns: 2;
 }
 
-.section-border-top {
-  border-top-style: solid;
-  border-color: green;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+.section-heading-1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+// section H2
+.content h2 {
+  font-family: "Sora", sans-serif;
+  font-weight: 200;
+  font-optical-sizing: auto;
+}
+
+// section H3
+.content h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  font-optical-sizing: auto;
 }

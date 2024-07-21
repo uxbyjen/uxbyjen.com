@@ -1,5 +1,5 @@
 ---
-section_title: Past Experience
+section_heading: Past Experience
 slug: experience
 sort_order: 5
 --- 

@@ -9,6 +9,10 @@
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,15 +22,12 @@
       <section class="section">
         <div class="container">
           <!-- Title -->
-          <h1 class="title has-text-centered">
+          <div class="has-text-centered">
             <img src="/assets/images/uxbyjen.png">
-          </h1>
+          </div>
 
           <!-- Navigation -->
-          <div class="is-size-5 title has-text-centered">
-            <span class="icon">
-              <i class="fas fa-home"></i>
-            </span>
+          <div class="is-size-5 has-text-centered">
             <p>
               {% include nav.html %}
             </p>
@@ -35,17 +36,18 @@
 
       <!-- Sections -->
       {% for section in site.sections %}
-      <section class="section is-small">
-        <div class="container {% unless forloop.first %}section-border-top{% endunless %}">
-          <h1 id="{{ section.slug }}" class="title has-text-centered">
-            {{ section.section_title }}
-          </h1>
+        {% unless forloop.first %}<hr />{% endunless %}
+        <section class="section is-small">
+          <div class="container">
+            <h1 id="{{ section.slug }}" class="title has-text-centered section-heading-1">
+              {{ section.section_heading }}
+            </h1>
 
-          <div class="content">
-            {{ section.content }}
+            <div class="content">
+              {{ section.content }}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       {% endfor %}
     </div>
   </div>

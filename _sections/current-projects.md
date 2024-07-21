@@ -1,5 +1,5 @@
 ---
-section_title: Current Projects
+section_heading: Current Projects
 slug: projects
 sort_order: 4
 ---

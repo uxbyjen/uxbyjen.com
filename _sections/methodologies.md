@@ -1,5 +1,5 @@
 ---
-section_title: Methodologies
+section_heading: Methodologies
 slug: methodologies
 sort_order: 2
 ---

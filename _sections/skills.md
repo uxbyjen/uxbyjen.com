@@ -1,5 +1,5 @@
 ---
-section_title: Skills
+section_heading: Skills
 slug: skills
 sort_order: 3
 ---

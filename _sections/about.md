@@ -1,5 +1,5 @@
 ---
-section_title: About Me
+section_heading: About Me
 slug: about
 sort_order: 1
 ---
