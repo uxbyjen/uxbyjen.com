@@ -1,4 +1,21 @@
-{% for section in site.sections %}
-    <a href="#{{ section.slug }}" class="my-nav-link">{{ section.section_heading }}</a>
-    {% unless forloop.last %}|{% endunless %}
-{% endfor %}
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-item has-text-centered">
+        <!-- Header -->
+        <div class="container">
+            <!-- Title -->
+            <div class="">
+                <img src="/assets/images/uxbyjen.png">
+            </div>
+
+            <!-- Navigation -->
+            <div class="is-size-5">
+                <p>
+                    {% for section in site.sections %}
+                    <a href="#{{ section.slug }}" class="my-nav-link">{{ section.section_heading }}</a>
+                    {% unless forloop.last %}|{% endunless %}
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+    </div>
+</nav>
