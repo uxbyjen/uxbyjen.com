@@ -1,4 +1,16 @@
-{% for section in site.sections %}
-    <a href="#{{ section.slug }}" class="my-nav-link">{{ section.section_heading }}</a>
-    {% unless forloop.last %}|{% endunless %}
-{% endfor %}
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+        <img height="400" src="/assets/images/uxbyjen.png">
+        </a>
+    </div>
+
+    <div class="navbar-menu">
+        <div class="navbar-end">
+            {% for section in site.sections %}
+                <a href="#{{ section.slug }}">{{ section.section_heading }}</a>
+                {% unless forloop.last %}|{% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</nav>

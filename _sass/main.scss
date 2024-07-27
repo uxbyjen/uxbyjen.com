@@ -1,5 +1,10 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 800
+
+html {
+  scroll-padding-top: 100px; /* height of sticky header */
+}
+
 body {
   //font-family: "Sora", sans-serif;
   //font-optical-sizing: auto;
@@ -23,9 +28,8 @@ hr {
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800
 .section-heading-1 {
-  font-family: "Merriweather Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
