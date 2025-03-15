@@ -1,0 +1,70 @@
+body {
+  font-family: "Sora", sans-serif;
+}
+
+.hero {
+  background-color: #6DA9AD;
+  color: #fff
+}
+
+.hero .title {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.hero .subtitle {
+  font-weight: 600;
+  color: #fff;
+}
+
+.about {
+  background-color: #F2F2F7;
+}
+
+
+//
+// old stuff down here...
+//
+
+
+hr {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.current {
+  color: green;
+}
+
+.two-columns {
+  columns: 2;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+.section-heading-1 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #C80505;
+}
+
+// section H2
+.content h2 {
+  font-family: "Sora", sans-serif;
+  font-weight: 200;
+  font-optical-sizing: auto;
+}
+
+// section H3
+.content h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  font-optical-sizing: auto;
+}
